@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>CSS教程 Exercise 1</title>
+        <style>
+            body
+            {
+                /*ackground-color: #61cf36;*/
+                background-image:url("Asset 1.png");
+                background-repeat: no-repeat;
+                background-position:bottom;
+                background-attachment:fixed;
+                background-color: rgb(71, 233, 111);
+            }
+            h1      /*标签选择器*/
+            {
+                color:rgb(95, 90, 21);
+                text-align:center
+            }
+            p
+            {
+                font-family:"Times New Roman";
+                font-size: 20px;
+            }
+            #para1   /*id选择器*/
+            {
+                color:rgb(88, 62, 233);
+            }
+            .center_div     /*class选择器*/
+            {
+                border:1px solid gray;
+	            margin-left:auto;
+	            margin-right:auto;
+	            width:90%;
+	            background-color:#d0f0f6;
+	            text-align:center;
+	            padding:10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class = "center_div">CSS 实例！</h1>
+        <h1 style="text-align: center; color: cadetblue;"><hr>元素选择器</h1>
+        <p id = "para1" class = "center_div">Hello World!!!</p>
+    </body>
+</html>
