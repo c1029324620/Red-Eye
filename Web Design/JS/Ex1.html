@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript 教程</title>
+        <script>
+            function displayDate()
+            {
+                document.getElementById("demo").innerHTML = Date();
+            }
+            function changeImage()
+            {
+                var s = document.getElementById("myimage");
+                s.src = s.src.match('bulboff') ? "./pic_bulbon.gif":"./pic_bulboff.gif";//检索是否有"bulboff"这个字符串在src里
+            }
+        </script>
+    </head>
+    <body>
+        <h1>我的第一个JavaScript程序</h1>
+        <p id = "demo">显示日期</p>
+        <button type = "button" onclick = "displayDate()">显示日期</button>
+        <br/>
+        <button type ="button" onclick = "alert('Welcome')">Click Me!</button>
+        <img id = "myimage" onclick = "changeImage()" src = "./pic_bulboff.gif" width = "100" height = "180">
+        <script>
+            document.write("<p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>");
+        </script>
+        <input id="demo" type="text">
+        <script>
+            function inputNum()
+            {
+                var x = document.getElementById("demo").value;
+                if(x==""||isNaN(x))
+                {
+                    alert("不是数字");
+                }
+            }
+        </script>
+        <button type = "button" onclick = "inputNum()">确认</button>
+    </body>
+    
+</html>
