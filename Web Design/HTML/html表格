@@ -1,0 +1,32 @@
+- 表格由<table>标签来定义。 每个表格均有若干行（由<tr>标签来定义）， 每行被分割为若干单元格(由<td>标签来定义)。
+    字母td 指table data, 即数据单元的内容。数据单元格可以包含文本、图片、列表、段落、表单、水平线、表格等等。
+- 如果不定义边框属性，表格将不显示边框。有时这很有用，但是大多数时候，我们希望显示边框。
+- HTML 表格表头使用<th>标签来进行定义。大多数浏览器会把表头显示为粗体居中的文本。
+- <caption>定义表格标题。<caption>标签必须直接放置到 <table> 标签之后, 您只能对每个表格定义一个标题。
+    通常这个标题会被居中于表格之上。然而，CSS 属性 "text-align" 和 "caption-side" 能用来设置标题的对齐方式和显示位置。
+- <colgroup>定义表格列的组。<col>定义用于表格列的属性。
+- <thead>定义表格的页眉
+- <tbody>定义表格的主体
+- <tfoot>定义表格的页脚
+- 《table> 标签常用属性：
+    border="1"   表格边框的宽度
+    bordercolor="#fff"   表格边框的颜色
+    cellspacing="5"   单元格之间的间距
+    width="500"   表格的总宽度
+    height="100"   表格的总高度
+    align="right"   表格整体对齐方式    (参数有  left、center、right)
+    bgcolor="#fff"   表格整体的背景色
+
+- <tr> 标签的常用属性:
+    bgcolor="#fff"    行的颜色
+    align="right"    行内文字的水平对齐方式    (参数有left、center、right)
+    valign="top"     行内文字的垂直对齐方式    (参数有top、middle、bottom)
+
+- <td>、<th> 标签的常用属性:
+    width="500"    单元格的宽度，设置后对当前一列的单元格都有影响
+    height="100"   单元格的高度，设置后对当前一行的单元格都有影响
+    bgcolor="fff"  单元格的背景色
+    align="right"  单元格文字的水平对齐方式    (参数left、center、right)
+    rowspan="3"    合并垂直水平方向的单元格
+    colspan="3"    合并水平方向单元格
+    valign="top"   单元格文字的垂直对齐方式    (参数middle、bottom、top) 

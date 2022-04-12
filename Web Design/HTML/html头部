@@ -1,0 +1,20 @@
+- <title> 定义了html文档的标题。
+- <base> 定义了页面中所有链接默认的链接目标地址。
+- <meta> 提供了html文档的meta标记。
+- 使用 <meta> 元素来描述HTML文档的描述，关键词，作者，字符集等
+- <head>包含了所有的头部标签元素，在<head>元素中可以插入(script),
+    样式(css),及各种meta信息。可以添加在头部区域的元素标签为：<title>, 
+    <style>, <meta>, <link>, <script>, <noscript> 和 <base>
+- <title>标签定义了不同文档的标题， <title>在html/xhtml文档中是必须的。
+    <title>元素定义了浏览器工具栏的标题，当网页添加到收藏夹时，显示在收藏夹的标题
+    显示在搜索引擎结果界面时的标题。
+- <base>元素描述了基本的链接地址/链接目标，该标签作为html文档中所有的链接标签的默认连接
+- <link>标签定义了文档与外部资源之间的关系， <link>通常用于链接到样式表。
+    <link rel = "stylesheet" type = "text/css" href = "mystyle.css">
+- <style>标签定义了html文档的样式文件引用地址。在<style>元素中你也可以直接添加样式表
+    来渲染html文档。
+- <meta>标签描述了一些基本的元数据， 元数据不显示在页面上，但会被浏览器解析
+    meta元素通常用于指定网页的描述，关键词，文件的最后修改时间，作者，和其他元数据
+    元数据可以使用于浏览器，搜索引擎(关键字)，或其他web服务。
+    <meta http-equiv = "refresh" content = "30">
+- <script>标签用于加载脚本文件，如JavaScript。

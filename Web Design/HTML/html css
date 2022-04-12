@@ -1,0 +1,15 @@
+- CSS 用于渲染html元素标签的样式
+- CSS 是在 HTML 4 开始使用的,是为了更好的渲染HTML元素而引入的.
+- CSS 可以通过以下方式添加到HTML中:
+    内部样式-在html元素中使用"style"属性
+    内部样式表-在html文档头部<head>区域使用<style>元素来包含css
+    外部引用-使用外部css文件
+- 最好的方式是通过外部引用css文件。
+- 内联样式：当特殊的样式需要应用到个别元素时，就可以使用内连接样式。
+    <p style = "color:blue;margin-left:20px">这是一个段落</p>
+- 我们可以使用font-family（字体），color（颜色），和font-size（字体大小）属性来定义字体的样式:
+    <h1 style = "font-family:verdana;">一个标题</h1>
+    <p style = "font-family:arial;color:red;font-size:20px;">一个段落</p>
+- 对于大部分标签，修改父级标签，子级标签特性也会改变。 但某些标签却无法通过修改父级标签来改变
+    子级标签特性，如a标签，修改其颜色特性 必须直接修改a标签的特性才可。
+    <a href = "#" style = "color:red;" rel = "nofollow">只能使用内联方式</a>

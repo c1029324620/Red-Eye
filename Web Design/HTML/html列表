@@ -1,0 +1,16 @@
+- HTML 支持有序、无序和定义列表:
+- 无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。
+- 同样，有序列表也是一列项目，列表项目使用数字进行标记。 有序列表始于 <ol> 标签。每个列表项始于 <li> 标签。
+- 自定义列表不仅仅是一列项目，而是项目及其注释的组合。定义列表以 <dl> 标签开始。
+    每个自定义列表项以 <dt> 开始。每个自定义列表项的定义以 <dd> 开始。
+-  列表项内部可以使用段落、换行符、图片、链接以及其他列表等等。
+- ul是unordered lists的缩写 (无序列表)
+    li是list item的缩写 （列表项目）
+    ol是ordered lists的缩写（有序列表）
+    dl是definition lists的英文缩写 (自定义列表)
+    dt是definition term的缩写 (自定义列表组)
+    dd是definition description的缩写（自定义列表描述）
+    nl是navigation lists的英文缩写 （导航列表）
+    tr是table row的缩写 （表格中的一行）
+    th是table header cell的缩写 （表格中的表头）
+    td是table data cell的缩写 （表格中的一个单元格）
