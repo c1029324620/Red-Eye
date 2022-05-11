@@ -1,0 +1,32 @@
+- 颜色属性被用来设置文字的颜色
+- 颜色是通过CSS最经常的指定
+  十六进制值-如:#FF0000
+  一个RGB值-如：RGB(255,0,0)
+  颜色的名称-如：red
+- 文本的对齐方式
+  文本排列属性是用来设置文本的水平对齐方式。文本可居中或对齐到左或右,两端对齐.
+  当text-align设置为"justify"，每一行被展开为宽度相等，左，右外边距是对齐（如杂志和报纸）。
+- 文本修饰
+  text-decoration 属性用来设置或删除文本的装饰。从设计的角度看 text-decoration属性主要是用来删除链接的下划线：
+- 文本转换属性是用来指定在一个文本中的大写和小写字母。可用于所有字句变成大写或小写字母，或每个单词的首字母大写。
+- 文本缩进属性是用来指定文本的第一行的缩进。
+  p {text-indent:50px}
+- 指定字符之间的空间
+  h1 {letter-spacing:2px}
+  h2 {letter-spacing:-3px}
+- 指定行与行之间的空间 (大多数浏览器的默认行高约为110%至120%。)
+  p.small {line-height:70%}
+  p.big {line-height:200%}
+- 如何改变元素的文本方向
+  div.ex1 {direction:rtl;}
+  div.ex2 {direction:ltr}
+- 增加单词之间的空白空间
+  p {word-spacing:30px}
+- 如何禁用元素内的文字环绕
+  p {white-space:nowrap;}
+- 设置文本的垂直对齐图像
+  img.top {vertical-align:text-top}
+  img.bottom {vertical-align:text-bottom}
+- 添加文本阴影
+  好h1 {text-shadow:2px 2px #FF0000;}
+  
