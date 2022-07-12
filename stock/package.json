@@ -1,0 +1,23 @@
+{
+  "name": "stock",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "highcharts-vue": "^1.4.0",
+    "http-proxy-middleware": "^2.0.6",
+    "vue": "^3.2.36",
+    "vue-debounce": "^4.0.0",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9",
+    "vue-svg-loader": "^0.17.0-beta.2"
+  }
+}
