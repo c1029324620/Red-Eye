@@ -21,3 +21,6 @@ This is a web-end stock trading platform that allow users to look up a stock and
   <img src="/stock/Watchlist.gif" title="" alt="Watchlist.gif" width="500">
   
 ## Portfolio
+  In Portfolio, we can buy/sell our stocks.
+  
+  <img src="/stock/Portfolio.gif" title="" alt="Portfolio.gif" width="500">
