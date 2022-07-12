@@ -7,11 +7,17 @@ This is a web-end stock trading platform that allow users to look up a stock and
 - [Demo](#demo)
 - [Search](#search)
 - [Watchlist](#watchlist)
-### Demo
+- [Portfolio](#portfolio)
+
+## Demo
   <img src="/stock/Stock Search.gif" title="" alt="StockSearch.gif" width="500">
   
-### Search
+## Search
   Debounce is added to stock search to prevent too many calls to stock search API.
   
-### Watchlist
-
+## Watchlist
+  In the Watchlist, we can add/delete stocks to the watchlist, they are sorted by tickers'name and are stored in localstorage.
+  
+  <img src="/stock/Watchlist.gif" title="" alt="Watchlist.gif" width="500">
+  
+## Portfolio
